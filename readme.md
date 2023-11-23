@@ -1,6 +1,6 @@
 Instructions
 ---
-* Run "npm install" then "npm start"
+* To run Exercise 2, open terminal in the current project folder, then type "cd exercise-2" , run "npm install" to install dependencies and finally to open the app, execute "npm start"
 
 
 Exercise 1
