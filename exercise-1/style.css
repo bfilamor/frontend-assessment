@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner__section {
+    font-size: 50px;
+}
+
+.banner__section h1 {
+    font-size: 1.3em;
+}
+
+.banner__section p {
+    font-size: 0.65em;
+}
+
+.btn {
+    letter-spacing: 0.075em;
+}
+
+@media (max-width:992px) {
+    .banner__section {
+        font-size: 42px;
+    }
+}
