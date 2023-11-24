@@ -1,6 +1,6 @@
 Instructions
 ---
-* To run Exercise 2, open terminal in the current project folder, then type "cd exercise-2" , run "npm install" to install dependencies and finally to open the app, execute "npm start"
+* To run Exercise 2, open terminal in the current project folder, then type "cd exercise-2" , run "npm install" to install dependencies and finally to open the app, execute "npm start". To run the app in  production build, execute "npm run build"
 
 
 Exercise 1
@@ -18,5 +18,5 @@ Exercise 2
 
 ###### Bonus points
 * Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
-* Because ++'a' will result into NaN, because 'a' is a String. So the result without the toLowerCase() method is 'BaNaNa' 
+* Because ++'a' will result into 'NaN'. First of all , 'a' is a String. '++' denotes an increment, which will then result into a 'NaN' error if used with a String. The result without the toLowerCase() method is 'baNaNa' 
 
