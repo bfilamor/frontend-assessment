@@ -1,6 +1,24 @@
 Instructions
 ---
-* To run Exercise 2, open terminal in the current project folder, then type "cd exercise-2" , run "npm install" to install dependencies and finally to open the app, execute "npm start". To run the app in  production build, execute "npm run build"
+## To run Exercise 2, open your preferred terminal in the current project folder, then type
+```sh
+cd exercise-2
+```
+### Firstly, we need to install the depedencies
+```sh
+npm install
+```
+
+### Finally, to run the App
+```sh
+npm start
+```
+
+### Compile the App in Production Build
+```sh
+npm run build
+```
+
 
 
 Exercise 1
